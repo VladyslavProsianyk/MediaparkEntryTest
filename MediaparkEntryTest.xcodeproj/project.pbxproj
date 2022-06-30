@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		30C14BCE286D172E00F748D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BCD286D172E00F748D8 /* AppDelegate.swift */; };
 		30C14BD0286D172E00F748D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BCF286D172E00F748D8 /* SceneDelegate.swift */; };
-		30C14BD2286D172E00F748D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BD1286D172E00F748D8 /* ViewController.swift */; };
 		30C14BD5286D172E00F748D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C14BD3286D172E00F748D8 /* Main.storyboard */; };
 		30C14BD7286D172F00F748D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C14BD6286D172F00F748D8 /* Assets.xcassets */; };
 		30C14BDA286D172F00F748D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C14BD8286D172F00F748D8 /* LaunchScreen.storyboard */; };
+		30C14BE4286D191200F748D8 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BE3286D191200F748D8 /* ApiKey.swift */; };
+		30C14BE6286D19B800F748D8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BE5286D19B800F748D8 /* HomeViewModel.swift */; };
+		30C14BE9286D19DB00F748D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BE7286D19DB00F748D8 /* HomeView.swift */; };
+		30C14BEA286D19DB00F748D8 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C14BE8286D19DB00F748D8 /* HomeView.xib */; };
+		30C14BF4286D1D2900F748D8 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30C14BF3286D1D2900F748D8 /* Empty.xib */; };
+		30C14BF7286D1DBB00F748D8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BF6286D1DBB00F748D8 /* Colors.swift */; };
+		30C14BFA286D1DDA00F748D8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BF9286D1DDA00F748D8 /* UIColor+Extension.swift */; };
+		30C14BFC286D212F00F748D8 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BFB286D212F00F748D8 /* UILabel+Extension.swift */; };
+		30C14BFE286D21F900F748D8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14BFD286D21F900F748D8 /* UIViewController+Extension.swift */; };
+		30C14C01286D225800F748D8 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 30C14C00286D225800F748D8 /* MBProgressHUD */; };
+		30C14C04286D266300F748D8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 30C14C03286D266300F748D8 /* RxCocoa */; };
+		30C14C06286D266300F748D8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30C14C05286D266300F748D8 /* RxSwift */; };
+		30C14C08286D27DA00F748D8 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C07286D27DA00F748D8 /* BaseButton.swift */; };
+		30C14C0A286D2B4400F748D8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C09286D2B4400F748D8 /* RoundButton.swift */; };
+		30C14C0E286D315800F748D8 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30C14C0D286D315800F748D8 /* IQKeyboardManagerSwift */; };
+		30C14C11286D338200F748D8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C10286D338200F748D8 /* BaseViewController.swift */; };
+		30C14C13286D33A900F748D8 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C12286D33A900F748D8 /* BaseViewModel.swift */; };
+		30C14C16286D340400F748D8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C15286D340400F748D8 /* Router.swift */; };
+		30C14C18286D341600F748D8 /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C14C17286D341600F748D8 /* AssemblyBuilder.swift */; };
+		30C14C1B286D36E500F748D8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 30C14C1A286D36E500F748D8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30C14BCA286D172E00F748D8 /* MediaparkEntryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaparkEntryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C14BCD286D172E00F748D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30C14BCF286D172E00F748D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30C14BD1286D172E00F748D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30C14BD4286D172E00F748D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30C14BD6286D172F00F748D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C14BD9286D172F00F748D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C14BDB286D172F00F748D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C14BE3286D191200F748D8 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		30C14BE5286D19B800F748D8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30C14BE7286D19DB00F748D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30C14BE8286D19DB00F748D8 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		30C14BF3286D1D2900F748D8 /* Empty.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		30C14BF6286D1DBB00F748D8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		30C14BF9286D1DDA00F748D8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		30C14BFB286D212F00F748D8 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		30C14BFD286D21F900F748D8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		30C14C07286D27DA00F748D8 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		30C14C09286D2B4400F748D8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		30C14C10286D338200F748D8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		30C14C12286D33A900F748D8 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		30C14C15286D340400F748D8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		30C14C17286D341600F748D8 /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C14C1B286D36E500F748D8 /* Alamofire in Frameworks */,
+				30C14C06286D266300F748D8 /* RxSwift in Frameworks */,
+				30C14C0E286D315800F748D8 /* IQKeyboardManagerSwift in Frameworks */,
+				30C14C04286D266300F748D8 /* RxCocoa in Frameworks */,
+				30C14C01286D225800F748D8 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,14 +95,108 @@
 			isa = PBXGroup;
 			children = (
 				30C14BCD286D172E00F748D8 /* AppDelegate.swift */,
+				30C14BE3286D191200F748D8 /* ApiKey.swift */,
 				30C14BCF286D172E00F748D8 /* SceneDelegate.swift */,
-				30C14BD1286D172E00F748D8 /* ViewController.swift */,
+				30C14C14286D33F500F748D8 /* Navigation */,
+				30C14C0F286D337100F748D8 /* Base */,
+				30C14BF8286D1DC400F748D8 /* Extensions */,
+				30C14BF5286D1D8700F748D8 /* GlobalUI */,
+				30C14BE1286D175200F748D8 /* Modules */,
 				30C14BD3286D172E00F748D8 /* Main.storyboard */,
 				30C14BD6286D172F00F748D8 /* Assets.xcassets */,
 				30C14BD8286D172F00F748D8 /* LaunchScreen.storyboard */,
 				30C14BDB286D172F00F748D8 /* Info.plist */,
 			);
 			path = MediaparkEntryTest;
+			sourceTree = "<group>";
+		};
+		30C14BE1286D175200F748D8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BE2286D175A00F748D8 /* Home */,
+				30C14BF1286D1BD400F748D8 /* TabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		30C14BE2286D175A00F748D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BEC286D19E900F748D8 /* ViewModel */,
+				30C14BEB286D19E100F748D8 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30C14BEB286D19E100F748D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BE7286D19DB00F748D8 /* HomeView.swift */,
+				30C14BE8286D19DB00F748D8 /* HomeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30C14BEC286D19E900F748D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BE5286D19B800F748D8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30C14BF1286D1BD400F748D8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BF2286D1BE000F748D8 /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		30C14BF2286D1BE000F748D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BF3286D1D2900F748D8 /* Empty.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30C14BF5286D1D8700F748D8 /* GlobalUI */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BF6286D1DBB00F748D8 /* Colors.swift */,
+				30C14C07286D27DA00F748D8 /* BaseButton.swift */,
+				30C14C09286D2B4400F748D8 /* RoundButton.swift */,
+			);
+			path = GlobalUI;
+			sourceTree = "<group>";
+		};
+		30C14BF8286D1DC400F748D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30C14BF9286D1DDA00F748D8 /* UIColor+Extension.swift */,
+				30C14BFB286D212F00F748D8 /* UILabel+Extension.swift */,
+				30C14BFD286D21F900F748D8 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30C14C0F286D337100F748D8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				30C14C10286D338200F748D8 /* BaseViewController.swift */,
+				30C14C12286D33A900F748D8 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		30C14C14286D33F500F748D8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				30C14C15286D340400F748D8 /* Router.swift */,
+				30C14C17286D341600F748D8 /* AssemblyBuilder.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +215,13 @@
 			dependencies = (
 			);
 			name = MediaparkEntryTest;
+			packageProductDependencies = (
+				30C14C00286D225800F748D8 /* MBProgressHUD */,
+				30C14C03286D266300F748D8 /* RxCocoa */,
+				30C14C05286D266300F748D8 /* RxSwift */,
+				30C14C0D286D315800F748D8 /* IQKeyboardManagerSwift */,
+				30C14C1A286D36E500F748D8 /* Alamofire */,
+			);
 			productName = MediaparkEntryTest;
 			productReference = 30C14BCA286D172E00F748D8 /* MediaparkEntryTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +250,12 @@
 				Base,
 			);
 			mainGroup = 30C14BC1286D172E00F748D8;
+			packageReferences = (
+				30C14BFF286D225800F748D8 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				30C14C02286D266300F748D8 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				30C14C0C286D315800F748D8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				30C14C19286D36E500F748D8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 30C14BCB286D172E00F748D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30C14BDA286D172F00F748D8 /* LaunchScreen.storyboard in Resources */,
+				30C14BEA286D19DB00F748D8 /* HomeView.xib in Resources */,
+				30C14BF4286D1D2900F748D8 /* Empty.xib in Resources */,
 				30C14BD7286D172F00F748D8 /* Assets.xcassets in Resources */,
 				30C14BD5286D172E00F748D8 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C14BD2286D172E00F748D8 /* ViewController.swift in Sources */,
+				30C14BFE286D21F900F748D8 /* UIViewController+Extension.swift in Sources */,
+				30C14BFC286D212F00F748D8 /* UILabel+Extension.swift in Sources */,
+				30C14BFA286D1DDA00F748D8 /* UIColor+Extension.swift in Sources */,
 				30C14BCE286D172E00F748D8 /* AppDelegate.swift in Sources */,
+				30C14C0A286D2B4400F748D8 /* RoundButton.swift in Sources */,
+				30C14C11286D338200F748D8 /* BaseViewController.swift in Sources */,
+				30C14C18286D341600F748D8 /* AssemblyBuilder.swift in Sources */,
+				30C14BF7286D1DBB00F748D8 /* Colors.swift in Sources */,
+				30C14C13286D33A900F748D8 /* BaseViewModel.swift in Sources */,
+				30C14C08286D27DA00F748D8 /* BaseButton.swift in Sources */,
+				30C14BE6286D19B800F748D8 /* HomeViewModel.swift in Sources */,
+				30C14C16286D340400F748D8 /* Router.swift in Sources */,
+				30C14BE4286D191200F748D8 /* ApiKey.swift in Sources */,
+				30C14BE9286D19DB00F748D8 /* HomeView.swift in Sources */,
 				30C14BD0286D172E00F748D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +517,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30C14BFF286D225800F748D8 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		30C14C02286D266300F748D8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		30C14C0C286D315800F748D8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		30C14C19286D36E500F748D8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30C14C00286D225800F748D8 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C14BFF286D225800F748D8 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		30C14C03286D266300F748D8 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C14C02286D266300F748D8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		30C14C05286D266300F748D8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C14C02286D266300F748D8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		30C14C0D286D315800F748D8 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C14C0C286D315800F748D8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		30C14C1A286D36E500F748D8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C14C19286D36E500F748D8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30C14BC2286D172E00F748D8 /* Project object */;
 }
